@@ -1,12 +1,10 @@
-import { Feedback } from "./Feedback/Feedback";
-import { Statistics } from "./Statistics/Statistics";
+import { Component } from "react";
 
 
-export const App = () => {
-  return (
-    <div>
-      <Feedback />
-      <Statistics />
-    </div>
-  );
-};
+export class App extends Component {
+  state = {
+    good: 0,
+    neutral: 0,
+    bad: 0,
+  };
+}
