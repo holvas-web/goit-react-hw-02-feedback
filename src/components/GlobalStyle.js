@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle, styled } from "styled-components";
 import 'modern-normalize';
 
 export const GlobalStyle = createGlobalStyle `
@@ -35,4 +35,11 @@ export const GlobalStyle = createGlobalStyle `
     tbody {
         border: none;
     }
+    `;
+
+    export const Container = styled.div`
+        padding: 50px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
     `;
