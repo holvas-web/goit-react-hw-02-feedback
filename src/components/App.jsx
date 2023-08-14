@@ -3,10 +3,10 @@
 
 import { Component } from "react";
 import { Container } from './GlobalStyle';
-import { SectionWrap } from '../SectionWrap/SectionWrap';
-import { FeedbackOptions } from '../Feedback/FeedbackOptions';
-import { Statistics } from '../Statistics/Statistics';
-import { Notification } from '../Notification/Notification';
+import { SectionWrap } from './SectionWrap/SectionWrap';
+import { FeedbackOptions } from './Feedback/FeedbackOptions';
+import { Statistics } from './Statistics/Statistics';
+import { Notification } from './Notification/Notification';
 
 // Оголошення класового компонента App
 export class App extends Component {
